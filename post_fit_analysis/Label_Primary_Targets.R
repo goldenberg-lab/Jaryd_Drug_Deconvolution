@@ -35,6 +35,6 @@ PrimaryTargets <- PlateBook %>%
 
 # Save primaryTargets just the ortholog ids, without the grouping being applied 
 # post.
-write_csv(PrimaryTargs, './post fit analysis/Evaluate_Primary_and_off_Target/PrimaryTargetTbl_orthos.csv')
+write_csv(PrimaryTargs, './post_fit_analysis/Evaluate_Primary_and_off_Target/PrimaryTargetTbl_orthos.csv')
 
 

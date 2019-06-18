@@ -12,7 +12,7 @@ avg_reps <- T
 intercept <- F
 conc <- c(10,20)
 alpha <- 0
-file_suffix <- 'test'
+file_suffix <- ''
 for(conc in list(c(10,20))){#list(NA, c(1,2), c(3,6), c(10,20))){ #list(c(10,20))){
   source('import_data.R')
   source('glmnetHelperFuns.R')
